@@ -19,7 +19,6 @@ const Search = () => {
     };
     getData();
   }, [id]);
-  console.log(video)
   return (
     <Box p={2} sx={{ height: "90vh" }}>
       <Container maxWidth="90%">

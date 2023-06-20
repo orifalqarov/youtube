@@ -9,7 +9,6 @@ const Channel = () => {
   let { id } = useParams();
   const [channel, setChannel] = useState();
   const [video, setVideo] = useState([]);
-  console.log(id);
   useEffect(() => {
     const getData = async () => {
       try {
@@ -27,7 +26,6 @@ const Channel = () => {
     };
     getData();
   }, [id]);
-  console.log(channel);
   return (
     <Box minHeight={"95vh"} marginTop={"10vh"}>
       <Box>
