@@ -5,7 +5,7 @@ import { Category, Videos } from "../";
 import { ApiService } from "../../service/api.service";
 
 const Main = () => {
-  const [selectCategory, setSelectCategory] = useState("New");
+  const [selectCategory, setSelectCategory] = useState("Education");
   const [videos, setVideos] = useState([]);
   const selectedCategoryHandler = (category) => setSelectCategory(category);
   useEffect(() => {

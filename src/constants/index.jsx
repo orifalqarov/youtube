@@ -16,6 +16,10 @@ import {
 
 export const category = [
   {
+    name: "Education",
+    icon: <School />,
+  },
+  {
     name: "New",
     icon: <Home />,
   },
@@ -30,10 +34,6 @@ export const category = [
   {
     name: "Gaming",
     icon: <SportsEsports />,
-  },
-  {
-    name: "Education",
-    icon: <School />,
   },
   {
     name: "Sport",
